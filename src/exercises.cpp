@@ -5,11 +5,15 @@
 using namespace std;
 
 void exercise_1(string s1, string s2, string s3) {
-  // TODO: YOUR CODE HERE
+  milk;
 }
 
 void exercise_2(double A, double B, double C) {
-  // TODO: YOUR CODE HERE
+  double result1= (-B+sqrt(B*B-4*A*B)/2*A;
+  cout<<result1;
+
+  double result2= (-B-sqrt(B*B-4*A*B)/2*A;
+  cout<<result2;
 }
 
 void exercise_3(int a, int b) {
