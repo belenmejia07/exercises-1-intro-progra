@@ -9,6 +9,7 @@ void exercise_1(string s1, string s2, string s3) {
 }
 
 void exercise_2(double A, double B, double C) {
+double A, B, C;
   double pedir(){
     cin>>A>>B>>C;
     return A;
