@@ -9,10 +9,16 @@ void exercise_1(string s1, string s2, string s3) {
 }
 
 void exercise_2(double A, double B, double C) {
-  double result1= (-B+sqrt(B*B-4*A*B))/2*A;
+  double pedir(){
+    cin>>A>>B>>C;
+    return A;
+    return B;
+    return C;
+}
+void ejecutar(double A, double B, double C){
+  double result1=(-B+(sqrt(B*B-(4*A*C))))/(2*A);
   cout<<result1;
-
-  double result2= (-B-sqrt(B*B-4*A*B))/2*A;
+  double result2=(-B-(sqrt(B*B-(4*A*C))))/(2*A);
   cout<<result2;
 }
 
