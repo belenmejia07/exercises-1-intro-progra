@@ -44,7 +44,39 @@ void mostrar(long double a, long double b){
 }
 
 void exercise_4(double n, double a, double b, double x, double y) {
-  // TODO: YOUR CODE HERE
+  #include <iostream>
+using namespace std;
+
+double n,a,b,x,y,result1=0,result2=0,result3=0,result4=0,result5=0,result6=0;
+
+double pedir(){
+    cin>>n>>a>>b>>x>>y;
+    return n;
+    return a;
+    return b;
+    return x;
+    return y;
+}
+void mostrar(double n, double a, double b, double x, double y){
+    if(n>a && n>b){
+        result5=(n*y)/100;
+        result6=n-result5;
+        cout<<result6;
+    }
+    else if(n>a){
+        result1=(n*x)/100;
+        result2=n-result1;
+        cout<<result2;
+    }
+    else if(n>b){
+        result3=(n*y)/100;
+        result4=n-result3;
+        cout<<result4;
+    }
+    else{
+        cout<<n;
+    }
+}
 }
 
 void exercise_5(char character) {
