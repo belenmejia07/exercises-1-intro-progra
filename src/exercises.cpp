@@ -24,7 +24,23 @@ void ejecutar(double A, double B, double C){
 }
 
 void exercise_3(int a, int b) {
-  // TODO: YOUR CODE HERE
+  int result=0;
+long double a,b;
+
+long double pedir(){
+    cin>>a>>b;
+    return a;
+    return b;
+}
+void mostrar(long double a, long double b){
+    if(b==0){
+        cout<<"Impossible";
+        }
+        else{
+            result=a/b;
+            cout<<result;
+        }
+}
 }
 
 void exercise_4(double n, double a, double b, double x, double y) {
