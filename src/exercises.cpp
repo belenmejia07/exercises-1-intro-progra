@@ -80,7 +80,27 @@ void mostrar(double n, double a, double b, double x, double y){
 }
 
 void exercise_5(char character) {
-  // TODO: YOUR CODE HERE
+  #include <iostream>
+#include <string>
+using namespace std;
+
+char x;
+char pedir(){
+    cin.get(x);
+    return x;
+}
+void mostrar(char x){
+    if(x>=65 && x<=90){
+        cout<<"upper-case alphabet";
+    }
+    else if(x>=97 && x<=122){
+        cout<<"low-case alphabet";
+    }
+    else{
+        cout<<" not an alphabet";
+    }
+}
+
 }
 
 void exercise_6(int number) {
