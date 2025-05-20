@@ -104,7 +104,41 @@ void mostrar(char x){
 }
 
 void exercise_6(int number) {
-  // TODO: YOUR CODE HERE
+#include <iostream>
+#include <string>
+using namespace std;
+
+int x;
+int pedir(){
+    cin>>x;
+    return x;
+}
+void mostrar(int x){
+        switch (x){
+        case 1:
+        cout<<"lunes";
+        break;
+        case 2:
+        cout<<"martes";
+        break;
+        case 3:
+        cout<<"miercoles";
+        break;
+        case 4:
+        cout<<"jueves";
+        break;
+        case 5:
+        cout<<"viernes";
+        break;
+        case 6:
+        cout<<"sabado";
+        break;
+        case 7:
+        cout<<"domingo";
+        break;
+        case 0:
+        cout<<"Invalid Input";
+}}
 }
 
 void exercise_7(double r) {
